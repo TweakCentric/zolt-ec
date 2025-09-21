@@ -16,13 +16,13 @@ export default function Footer() {
               <p className="mb-8 text-[19px] md:text-[27px] max-w-[500px] font-light md:py-8">
                 Be the first to get notified when we get new updates and launch
               </p>
-              <div className="flex gap-4">
+              <div className="flex gap-2 md:gap-4">
                 <Input 
                   type="email" 
                   placeholder="Enter email" 
                   className="bg-transparent border-white text-white placeholder-white rounded-3xl py-6"
                 />
-                <Button className="bg-[#189132] hover:bg-green-700 text-white rounded-full cursor-pointer text-[18px] md:text-[27px] font-light py-6">
+                <Button className="bg-[#189132] hover:bg-green-700 text-white rounded-full cursor-pointer text-[17px] md:text-[27px] font-light py-6">
                   Join the waitlist
                 </Button>
               </div>
@@ -30,8 +30,8 @@ export default function Footer() {
             <div className='mr-40'>
               <h4 className="text-[20px] md:text-[27px] font-semibold mb-4">Quick Links</h4>
               <div className="space-y-2">
-                <p><a href="#why-now" className="hover:text-gray-300 text-white text-[15px] md:text-[19px]">Why Now?</a></p>
-                <p><a href="#how-it-works" className="hover:text-gray-300 text-white text-[15px] md:text-[19px]">How it Works?</a></p>
+                <p><a href="#why-now" className="hover:text-[#189132] text-white text-[15px] md:text-[19px]">Why Now?</a></p>
+                <p><a href="#how-it-works" className="hover:text-[#189132] text-white text-[15px] md:text-[19px]">How it Works?</a></p>
               </div>
               <div className="flex space-x-4 mt-8">
                 <Image src={instagram} alt="instagram" className='cursor-pointer hover:scale-y-105'/>

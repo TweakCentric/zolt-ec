@@ -6,10 +6,10 @@ import { Card } from "../ui/card";
 
 export default function MadeInNigeria() {
   return (
-    <section className="py-20 bg-black text-white mx-14 rounded-3xl mb-28">
+    <section className="py-14 md:py-20 bg-black text-white mx-6 md:mx-14 rounded-3xl mb-28">
         <div className="container mx-auto px-6">
           <h2 className="text-[26px] md:text-[52px] font-semibold text-center leading-tight">Made in Nigeria –</h2>
-          <p className="text-[26px] md:text-[52px] font-semibold mb-6 md:mb-12 text-center leading-tight">Assembly & Local Jobs</p>
+          <p className="text-[26px] md:text-[52px] font-semibold mb-10 md:mb-12 text-center leading-tight">Assembly & Local Jobs</p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
             <Card className="border border-white bg-transparent p-10">

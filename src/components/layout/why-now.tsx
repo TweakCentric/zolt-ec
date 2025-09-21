@@ -47,7 +47,7 @@ export default function WhyNow() {
           </div>
 
           <div
-            className="absolute right-40 z-20 pointer-events-none"
+            className="absolute mt-7.5 md:mt-0 right-40 z-20 pointer-events-none"
             style={{
               transform: "translate(20%, -82%)",
             }}
