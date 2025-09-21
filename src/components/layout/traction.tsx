@@ -11,7 +11,7 @@ export default function Traction() {
       style={{
         background: 'radial-gradient(48.26% 48.26% at 50% 42.36%, rgba(211, 248, 188, 0.39) 0%, #FFF 100%)'
       }}>
-        <div className="coverer mx-auto px-6">
+        <div className="container mx-auto px-6">
           <h2 className="text-[26px] md:text-[52px] font-semibold text-[#231F20] mb-6 md:mb-8 text-center">Traction to Date</h2>
           <div className="max-w-4xl mx-auto relative">
             {/* Vertical dotted line - centered on desktop, left-aligned on mobile */}
