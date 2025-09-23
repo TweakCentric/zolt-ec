@@ -5,6 +5,7 @@ import Hero from "@/components/layout/hero";
 import HowZoltWorks from "@/components/layout/how-zolt-works";
 import Impact from "@/components/layout/impact";
 import MadeInNigeria from "@/components/layout/made-in-nigeria";
+import ProductFeatures from "@/components/layout/product-features";
 import Stakeholders from "@/components/layout/stakeholders";
 import Suitability from "@/components/layout/suitability";
 import Traction from "@/components/layout/traction";
@@ -23,6 +24,7 @@ export default function Home() {
       <MadeInNigeria />
       <Stakeholders />
       <Suitability />
+      <ProductFeatures />
       <Impact />
       <CallToAction />
       <Footer />
