@@ -1,11 +1,13 @@
 import cargo from "@/../public/cargo.png";
 import Image from 'next/image';
+import Link from "next/link";
 
 export default function Hero() {
   return (
     <section 
       style={{
-        background: 'radial-gradient(48.26% 48.26% at 50% 42.36%, rgba(211, 248, 188, 0.39) 0%, #FFF 100%)'
+        background: 'url(./BG2.png) no-repeat center center',
+        backgroundSize: 'contain',
       }}
     >
         <div className="container mx-auto px-6 md:px-10 text-center pt-45">
@@ -18,9 +20,9 @@ export default function Hero() {
           <p className="text-[19px] md:text-[30px] font-light text-[#231F20] mb-8 max-w-3xl mx-auto md:leading-8">
             Affordable electric tricycles with swap-and-go energy. Save money, earn more, and drive clean.
           </p>
-          <button className="bg-[#189132] hover:bg-green-700 cursor-pointer py-[7px] px-7 text-white rounded-full tracking-wide text-lg md:text-[28px]">
+          <Link href="/join-the-waitlist" className="bg-[#189132] hover:bg-green-700 cursor-pointer py-[7px] px-7 text-white rounded-full tracking-wide text-lg md:text-[28px]">
             Join the Waitlist
-          </button>
+          </Link>
           <div className="mt-12">
             <Image
               src={cargo}

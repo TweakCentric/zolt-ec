@@ -4,7 +4,7 @@ import cargo from "@/../public/cta_cargo.png";
 
 export default function CallToAction() {
   return (
-    <section className="py-8 bg-[#F8F8F8] rounded-3xl mx-6 md:mx-14 mb-16 p-1 md:p-8">
+    <section className="py-8 rounded-3xl mx-6 md:mx-14 mb-16 p-1 md:p-8 bg-[url('/BG4.png')] bg-no-repeat bg-center bg-cover md:bg-contain">
       <div className='container mx-auto px-6 flex flex-col md:flex-row items-center'>
         <div className="text-left md:mb-30">
           <h2 className="text-[27px] md:text-[52px] font-semibold">Be part of <span className='text-[#189132]'>Africa&apos;s</span></h2>

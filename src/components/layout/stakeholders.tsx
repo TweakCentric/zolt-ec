@@ -4,6 +4,7 @@ import driver from '@/../public/truck-driver_icon.png';
 import partnership from "@/../public/partnership_icon.png";
 import investment from '@/../public/investment_icon.png';
 import { Card } from '../ui/card';
+import Link from 'next/link';
 
 export default function Stakeholders() {
   return (
@@ -18,9 +19,11 @@ export default function Stakeholders() {
               <h3 className="text-[25px] md:text-[32px] text-[#231F20] font-semibold mb-2 md:mb-4">For Drivers</h3>
               <p className="text-[19px] md:text-[27px] text-[#231F20] mb-4 md:mb-8 font-light">Earn more, spend less with Zolt EV + BaaS.</p>
               <div className="mt-auto">
-                <Button className="bg-[#189132] hover:bg-green-700 text-white w-full rounded-full cursor-pointer text-[19px] md:text-[27px] font-light py-6">
-                  Sign up as Driver
-                </Button>
+                <Link href="/join-the-waitlist">
+                  <Button className="bg-[#189132] hover:bg-green-700 text-white w-full rounded-full cursor-pointer text-[19px] md:text-[27px] font-light py-6">
+                    Sign up as Driver
+                  </Button>
+                </Link>
               </div>
             </Card>
             
@@ -29,9 +32,11 @@ export default function Stakeholders() {
               <h3 className="text-[19px] md:text-[32px] text-[#231F20] font-bold mb-2 md:mb-4">For Dealers & Partners</h3>
               <p className="text-[20px] md:text-[27px] text-[#231F20] mb-4 md:mb-8 font-light">Expand with EV-ready distribution.</p>
               <div className="mt-auto">
-                <Button className="bg-[#189132] hover:bg-green-700 text-white w-full rounded-full cursor-pointer text-[20px] md:text-[27px] font-light py-6">
-                  Register as Partner
-                </Button>
+                <Link href="register-as-partner">
+                  <Button className="bg-[#189132] hover:bg-green-700 text-white w-full rounded-full cursor-pointer text-[20px] md:text-[27px] font-light py-6">
+                    Register as Partner
+                  </Button>
+                </Link>
               </div>
             </Card>
             
@@ -40,9 +45,11 @@ export default function Stakeholders() {
               <h3 className="text-[26px] md:text-[32px] text-[#231F20] font-bold mb-2 md:mb-4">For Governments & Investors</h3>
               <p className="text-[20px] md:text-[27px] text-[#231F20] mb-4 md:mb-8 font-light">Align with Nigeria&apos;s energy transition and job creation goals.</p>
               <div className="mt-auto">
-                <Button className="bg-[#189132] hover:bg-green-700 text-white w-full rounded-full cursor-pointer text-[20px] md:text-[27px] font-light py-6">
-                  Partner with Us
-                </Button>
+                <Link href="partner-with-us">
+                  <Button className="bg-[#189132] hover:bg-green-700 text-white w-full rounded-full cursor-pointer text-[20px] md:text-[27px] font-light py-6">
+                    Partner with Us
+                  </Button>
+                </Link>
               </div>
             </Card>
           </div>

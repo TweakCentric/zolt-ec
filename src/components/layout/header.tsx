@@ -2,6 +2,7 @@
 
 import logo from "@/../public/zolt_logo.svg";
 import Image from 'next/image';
+import Link from "next/link";
 import { useState } from 'react';
 
 export default function Header() {
@@ -19,9 +20,9 @@ export default function Header() {
           </nav>
           
           {/* Desktop CTA Button */}
-          <button className="hidden md:block bg-[#189132] hover:bg-green-700 cursor-pointer py-2 px-6.5 text-white rounded-full tracking-wide text-[23px]">
+          <Link href="/join-the-waitlist" className="hidden md:block bg-[#189132] hover:bg-green-700 cursor-pointer py-2 px-6.5 text-white rounded-full tracking-wide text-[23px]">
             Join the Waitlist
-          </button>
+          </Link>
           
           {/* Mobile Menu Button */}
           <button
