@@ -25,7 +25,6 @@ export default function WhyNow() {
         {/* Green card */}
         <div className="relative md:mt-32">
           <div className="relative rounded-3xl py-8 bg-[url('/BG1.png')] bg-no-repeat bg-center bg-cover md:bg-contain">
-            {/* content row */}
             <div className="relative z-10 grid md:grid-cols-2 items-center py-10 md:py-20 px-6 md:px-16">
               <div className="text-white">
                 <h3 className="text-[26px] md:text-[52px] font-bold mb-6">Why Now?</h3>
