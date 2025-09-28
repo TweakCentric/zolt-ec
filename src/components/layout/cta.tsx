@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import { Button } from '../ui/button';
-import cargo from "@/../public/cta_cargo.png";
+import cargo from "@/../public/cargo.png";
 
 export default function CallToAction() {
   return (
-    <section className="py-8 rounded-3xl mx-6 md:mx-14 mb-16 p-1 md:p-8 bg-[url('/BG4.png')] bg-no-repeat bg-center bg-cover md:bg-contain">
-      <div className='container mx-auto px-6 flex flex-col md:flex-row items-center'>
+    <section className="py-8 rounded-3xl mx-6 md:mx-14 mb-16 p-1 bg-[url('/BG4.png')] bg-no-repeat bg-center bg-cover">
+      <div className='container mx-auto px-6 flex flex-col md:flex-row items-center md:justify-between'>
         <div className="text-left md:mb-30">
           <h2 className="text-[27px] md:text-[52px] font-semibold">Be part of <span className='text-[#189132]'>Africa&apos;s</span></h2>
           <h2 className="text-[27px] md:text-[52px] font-semibold mb-4">mobility revolution.</h2>
@@ -22,7 +22,7 @@ export default function CallToAction() {
           <Image
             src={cargo}
             alt="Zolt Electric Tricycle" 
-            width={800}
+            width={1000}
           />
         </div>
       </div>
